@@ -13,7 +13,7 @@ pipeline {
             }
         }
         
-       stage('compile the code') {
+       stage('compile the cod') {
             steps {
                 sh 'mvn compile'
             }
